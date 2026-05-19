@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLESS FOODS - Contact Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">B</span>
+            Bless Foods
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="team.html">Team</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="nav-controls">
+            <button type="button" id="darkModeToggle" class="btn-toggle" aria-label="Toggle dark mode">Dark Mode</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center fade-in">Our Contact Details</h1>
+        <p class="text-center fade-in">If you want to order a meal you can call, WhatsApp, or use the form below. You can also email us at blessfoods9@gmail.com.</p>
+
+        <form id="contactForm" class="contact-form fade-in" novalidate>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="07X XXX XXXX">
+                <span class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="orderType">Order Type</label>
+                <select id="orderType" name="orderType">
+                    <option value="pickup">Pickup</option>
+                    <option value="delivery">Delivery</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message / Order</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tell us what you would like to order..."></textarea>
+                <span class="error-msg"></span>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+            <p id="formSuccess" class="form-success">Thank you! Your message has been received. We will contact you shortly.</p>
+        </form>
+
+        <div class="contact-info fade-in">
+            <ul class="contact-list">
+                <li><strong>WhatsApp:</strong> 071 290 9312 or 078 879 5778</li>
+                <li><strong>Calls:</strong> 078 753 9287 or 078 666 054</li>
+                <li><strong>Email:</strong> blessfoods9@gmail.com</li>
+            </ul>
+            <p class="text-center" style="margin-top:1rem;">We're available for orders from 8:00 AM to 10:00 PM daily. Delivery available within a 5km radius.</p>
+            <div class="social-links">
+                <a href="https://wa.me/263712909312" target="_blank" rel="noopener">WhatsApp</a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+                <a href="mailto:blessfoods9@gmail.com">Email</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Bless Foods Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
