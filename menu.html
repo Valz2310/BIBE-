@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLESS FOODS - Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">B</span>
+            Bless Foods
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="team.html">Team</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="nav-controls">
+            <button type="button" id="darkModeToggle" class="btn-toggle" aria-label="Toggle dark mode">Dark Mode</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="text-center fade-in">Our Menu</h1>
+        <p class="text-center fade-in">Discover our delicious offerings for breakfast, lunch, and dinner</p>
+
+        <div class="menu-toolbar fade-in">
+            <label for="menuSearch">Search menu:</label>
+            <input type="search" id="menuSearch" placeholder="Search by dish name or description...">
+        </div>
+
+        <p id="noResults" class="no-results">No menu items match your search. Try a different keyword.</p>
+
+        <div class="menu-category fade-in">
+            <button type="button" class="accordion-header">
+                Breakfast
+                <span class="accordion-icon">&#9660;</span>
+            </button>
+            <div class="accordion-content">
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Full English Breakfast</div>
+                        <div class="item-description">Eggs, bacon, sausage, beans, toast, and tomatoes</div>
+                    </div>
+                    <div class="item-price">$12.99</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Pancake Stack</div>
+                        <div class="item-description">Fluffy pancakes with maple syrup and fresh berries</div>
+                    </div>
+                    <div class="item-price">$9.99</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Avocado Toast</div>
+                        <div class="item-description">Smashed avocado on artisan bread with poached eggs</div>
+                    </div>
+                    <div class="item-price">$10.99</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category fade-in">
+            <button type="button" class="accordion-header">
+                Lunch
+                <span class="accordion-icon">&#9660;</span>
+            </button>
+            <div class="accordion-content">
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Grilled Chicken Salad</div>
+                        <div class="item-description">Fresh greens with grilled chicken, cherry tomatoes, and balsamic dressing</div>
+                    </div>
+                    <div class="item-price">$14.99</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Beef Burger</div>
+                        <div class="item-description">Juicy beef patty with cheese, lettuce, and special sauce</div>
+                    </div>
+                    <div class="item-price">$13.99</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Vegetable Wrap</div>
+                        <div class="item-description">Fresh vegetables and hummus in a whole wheat wrap</div>
+                    </div>
+                    <div class="item-price">$10.99</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-category fade-in">
+            <button type="button" class="accordion-header">
+                Dinner
+                <span class="accordion-icon">&#9660;</span>
+            </button>
+            <div class="accordion-content">
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Grilled Salmon</div>
+                        <div class="item-description">Fresh salmon fillet with lemon butter sauce and seasonal vegetables</div>
+                    </div>
+                    <div class="item-price">$18.99</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Spaghetti Bolognese</div>
+                        <div class="item-description">Classic pasta with rich meat sauce and parmesan cheese</div>
+                    </div>
+                    <div class="item-price">$15.99</div>
+                </div>
+                <div class="menu-item">
+                    <div>
+                        <div class="item-name">Vegetable Curry</div>
+                        <div class="item-description">Mixed vegetables in a fragrant coconut curry sauce with rice</div>
+                    </div>
+                    <div class="item-price">$14.99</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Bless Foods Restaurant. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>
